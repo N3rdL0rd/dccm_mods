@@ -1,0 +1,10 @@
+{
+  "name": "DelayerFix",
+  "version": "1.0.0",
+  "type": "mod",
+  "tags": [
+    "performance",
+    "fix"
+  ],
+  "description": "Replaces the full queue re-sort that libs.Delayer.addF/addMs/addS do on every call with a stable insertion. Removes the Panchaku combo lag spike."
+}
