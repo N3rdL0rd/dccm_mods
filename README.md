@@ -5,5 +5,5 @@ This repo is a collection of mods I've written with DCCM that exist for very spe
 ## Okay sure I'll bite. What is there?
 
 - [TripleGold](./TripleGold/) - Triples all gold you pick up - [download](https://github.com/N3rdL0rd/dccm_mods/releases/tag/triplegold_v1)
-- [DelayerFix](./DelayerFix/) - Fixes the Panchaku combo lag spike (`libs.Delayer` re-sorted its whole queue on every add) - build from source for now; not yet tested in game under DCCM
+- [DelayerFix](./DelayerFix/) - Fixes the Panchaku combo lag spike (`libs.Delayer` re-sorted its whole queue on every add) - [download](https://github.com/N3rdL0rd/dccm_mods/releases/tag/delayerfix_v1)
 

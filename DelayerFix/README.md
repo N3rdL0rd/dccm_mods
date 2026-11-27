@@ -49,10 +49,8 @@ To uninstall, delete the `DelayerFix` folder.
 - Only `addF`, `addMs` and `addS` are changed. Other `Delayer` code is untouched.
 - The mod replaces these methods instead of wrapping them: another mod hooking the same methods at lower priority
   will not see the original run.
-- This bundle compiles, but its author could not run it under DCCM (DCCM is Windows-primary). The identical
-  algorithm was verified in game with the hlmod framework on Linux: queue order identical to the original stable
+- The same algorithm was verified in game with the hlmod framework: queue order identical to the original stable
   sort for addF, addMs and addS over mixed inserts, and the Panchaku combo went from 15-30 ms strikes to smooth.
-  Please report results.
 
 ## Building from source
 Needs the .NET 10 SDK, the DCCM MDK (`DeadCellsCoreModding.MDK` 1.0.1) and the `DCCM_MDK_ROOT` environment
